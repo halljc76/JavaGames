@@ -5,7 +5,7 @@ public class Mastermind {
 
 	static String[] colors = {"Red", "Blue", "Green", "Yellow"};
 	static int GUESSES_REMAINING = 9;
-	static int CODE_LENGTH = 4;
+	static int CODE_LENGTH = colors.length;
 	static double EPSILON_BOUND = 0.1;
 	static int POSITIONS_CORRECT = 0;
 
